@@ -127,8 +127,6 @@ class SpringBootBackendApirestApplicationTests {
 		assertFalse(autosPrueba.isEmpty());
 		assertEquals(2, autosPrueba.size());
 
-		// Aquí puedes agregar aserciones para verificar los atributos de los autos y sus marcas.
-		// Por ejemplo:
 		assertEquals(Long.valueOf(1), autosPrueba.get(0).getId());
 		assertEquals("FordAdventure", autosPrueba.get(0).getNombre());
 		assertEquals(20000, autosPrueba.get(0).getPrecio());
